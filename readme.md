@@ -153,9 +153,18 @@ Convert 101101 to base 10
 
 Whiteboard the schema for zappos.com
 
+Shoes Table: columns could include "Color", "Size", "Gender", "Price", "Style"
+
 Write FizzBuzz with as few if statements as possible. It's possible without any conditionals at all.
 
 Implement a function which calculates the n-th item of Fibonacci sequence
+
+def fib(n)
+  if n<2
+  return n
+  end
+  return fib(n-1) + fib(n-2)
+end  
 
 Find largest prime palindrome less than 1000
 
